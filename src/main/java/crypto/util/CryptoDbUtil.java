@@ -16,9 +16,7 @@ import java.security.NoSuchAlgorithmException;
 @Slf4j
 @Component
 public class CryptoDbUtil {
-    // zmap처럼 hex를 직접 만들지 말고
-    // https://veneas.tistory.com/entry/JAVA-Hex-%EC%9D%B8%EC%BD%94%EB%94%A9-%EB%94%94%EC%BD%94%EB%94%A9-%EB%B0%A9%EB%B2%95-16-%EC%A7%84%EC%88%98
-    // 여기서 처럼 내장함수 사용해서 해보기
+
     final private String cryptoDbIv = "나의 IV";
 
     final private String cryptoDbKey = "나의 key";
